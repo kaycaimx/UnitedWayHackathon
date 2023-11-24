@@ -5,6 +5,8 @@ import RequestForm from "./components/RequestForm";
 import React, { useState } from "react";
 import Modal from "react-modal";
 
+import StackBarChart from "./components/StackBarChart";
+
 Modal.setAppElement("#root");
 
 function App() {
@@ -154,6 +156,7 @@ function App() {
         onRequestClose={() => setShowRequestModal(false)}
         handleRequest={handleRequest}
       />
+      {/* <StackBarChart /> */}
     </div>
   );
 }
