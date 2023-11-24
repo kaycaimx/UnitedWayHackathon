@@ -168,6 +168,7 @@ export default function StackBarChart() {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
+        marginTop: 200,
       }}
     >
       <select
@@ -185,13 +186,13 @@ export default function StackBarChart() {
       >
         <h1 style={{ fontSize: "20px", fontWeight: "bold" }}>{getTitle()}</h1>
       </div>
-      <div style={{ width: "80%" }}>
+      <div style={{ width: "70%" }}>
         <VictoryChart
           domainPadding={30}
           padding={{ top: 50, bottom: 50, left: 50, right: 50 }}
         >
           <VictoryLegend
-            x={70}
+            x={30}
             y={0}
             title="Menstrual Products Type"
             centerTitle

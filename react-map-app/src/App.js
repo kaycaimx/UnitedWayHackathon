@@ -86,6 +86,27 @@ function App() {
       name: "North Shore Women's Centre",
       address: "131 East 2nd Street",
     },
+    {
+      lat: 50.68854,
+      lng: -120.35748,
+      isRequesting: true,
+      name: "Secwepemc Child and Family Services",
+      address: "348A Tranquille Rd",
+    },
+    {
+      lat: 50.73264,
+      lng: -121.27397,
+      isRequesting: true,
+      name: "The Ashcroft HUB Society",
+      address: "711 Hill St",
+    },
+    {
+      lat: 49.83022,
+      lng: -119.62617,
+      isRequesting: true,
+      name: "Partners in Resources Inc.",
+      address: "#3 2411 Drought Road",
+    },
   ]);
 
   const [showAddModal, setShowAddModal] = useState(false);
@@ -156,7 +177,7 @@ function App() {
         onRequestClose={() => setShowRequestModal(false)}
         handleRequest={handleRequest}
       />
-      {/* <StackBarChart /> */}
+      <StackBarChart />
     </div>
   );
 }
