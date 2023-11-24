@@ -1,0 +1,29 @@
+.buttonsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 10 10px 10;
+}
+
+.criticalText {
+  color: red;
+  font-weight: bold;
+}
+
+.goodText {
+  color: green;
+  font-weight: bold;
+}
+
+.requestButton {
+  background-color: red;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.deliveredButton {
+  background-color: green;
+  font-weight: bold;
+  border-radius: 5px;
+}
